@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malla Interactiva Educación Especial</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Malla Interactiva - Educación Especial</h1>
+
+  <div class="malla">
+
+    <!-- Semestre 1 -->
+    <section class="semestre" id="semestre-1">
+      <h2>Semestre 1</h2>
+      <div class="ramo" data-code="EDE140" data-prereq="">Paradigmas y Políticas en Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="EDE142" data-prereq="">Desarrollo Neurobiológico (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="EDE146" data-prereq="">Ámbitos, Saberes e Intereses de la Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="VIV1" data-prereq="">Vivencia Vocacional y Profesional en Educación Especial (abre Mediación 1 en Educación Especial 1)</div>
+      <div class="ramo" data-code="LCL122" data-prereq="">Estrategias Discursivas para Acceder al Conocimiento Disciplinar (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="TAP" data-prereq="">Taller de Psicología del Aprendizaje</div>
+      <div class="ramo" data-code="ANTC" data-prereq="">Antropología Cristiana</div>
+    </section>
+
+    <!-- Semestre 2 -->
+    <section class="semestre" id="semestre-2">
+      <h2>Semestre 2</h2>
+      <div class="ramo bloqueado" data-code="EDE150" data-prereq="EDE140,EDE142,EDE146,LCL122">Diversidad y Necesidades de Apoyo (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE153" data-prereq="EDE146">Neurociencias y Aprendizaje en Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="VIV2" data-prereq="VIV1">Vivencia de la Educación Especial en Contextos Educativos (abre Mediación 1 en Educación Especial 1)</div>
+      <div class="ramo bloqueado" data-code="EDE166" data-prereq="EDE150">Aprendices en Contextos Familiares y Educativos (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="PSI196" data-prereq="EDE150">Psicología de la Niñez y Adolescencia (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="ING1" data-prereq="">Inglés 1 (abre Inglés 2)</div>
+      <div class="ramo" data-code="FF1" data-prereq="">Formación Fundamental 1</div>
+    </section>
+
+    <!-- Semestre 3 -->
+    <section class="semestre" id="semestre-3">
+      <h2>Semestre 3</h2>
+      <div class="ramo bloqueado" data-code="VIV3" data-prereq="VIV1">Vivencia de la Educación Especial en Contextos de Aulas (abre Mediación 1 en Educación Especial 1)</div>
+      <div class="ramo bloqueado" data-code="EDE163" data-prereq="EDE150">Bases del Aprendizaje y Desarrollo Cognitivo en Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE169" data-prereq="EDE150">Desarrollo Profesional en Educación Especial 1 (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE210" data-prereq="EDE163">Evaluación y Apoyos a la Comunicación y el Lenguaje en Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE212" data-prereq="EDE163">Evaluación y Apoyos de los Lenguajes Artísticos (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="ING2" data-prereq="ING1">Inglés 2 (abre Inglés 3)</div>
+    </section>
+
+    <!-- Semestre 4 -->
+    <section class="semestre" id="semestre-4">
+      <h2>Semestre 4</h2>
+      <div class="ramo bloqueado" data-code="MED1" data-prereq="VIV1,VIV2,VIV3">Mediación en Educación Especial 1 (abre Mediación 2)</div>
+      <div class="ramo bloqueado" data-code="BPM" data-prereq="MED1">Bases Psicopedagógicas y Mediación para Personas con Necesidades de Apoyo (abre Evaluación e Intervención en Lectura y Escritura, Cálculo y Pens. Matemático, Funciones Ejecutivas, Desarrollo de Habilidades Académicas)</div>
+      <div class="ramo bloqueado" data-code="PDI" data-prereq="">Práctica Docente Inicial (abre Práctica Docente Intermedia)</div>
+      <div class="ramo bloqueado" data-code="TADA" data-prereq="">Taller de Aprendizaje y Desarrollo Adolescente (abre trabajo de titulación y Práctica Docente Intermedia)</div>
+      <div class="ramo bloqueado" data-code="FFSE" data-prereq="">Fundamentos Filosóficos y Sociales de la Educación (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="PSI275" data-prereq="">Psicología Social Aplicada a la Escuela y su Comunidad (abre trabajo de titulación)</div>
+    </section>
+
+    <!-- Semestre 5 -->
+    <section class="semestre" id="semestre-5">
+      <h2>Semestre 5</h2>
+      <div class="ramo bloqueado" data-code="EDE220" data-prereq="EDE163">Evaluación y Apoyos al Pensamiento Matemático y Científico (CN - CS) (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE222" data-prereq="EDE150">Diversidad y Necesidades de Apoyo Psicoeducativo (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="MED2" data-prereq="MED1">Mediación en Educación Especial 2 (abre Mediación 3: Dificultades del Aprendizaje)</div>
+      <div class="ramo bloqueado" data-code="TPC" data-prereq="">Teoría y Planificación Curricular (abre Evaluación del y para el Aprendizaje, Práctica Docente Intermedia)</div>
+      <div class="ramo bloqueado" data-code="TDDP" data-prereq="">Tecnologías Digitales para el Aprendizaje y Desarrollo Profesional Docente (abre trabajo de titulación y Práctica Docente Final)</div>
+      <div class="ramo bloqueado" data-code="ING3" data-prereq="ING2">Inglés 3 (abre Inglés 4)</div>
+    </section>
+
+    <!-- Semestre 6 -->
+    <section class="semestre" id="semestre-6">
+      <h2>Semestre 6</h2>
+      <div class="ramo bloqueado" data-code="EDE520" data-prereq="BPM">Evaluación e Intervención en Dificultades del Aprendizaje: Lectura y Escritura (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE521" data-prereq="BPM">Evaluación e Intervención en Dificultades del Aprendizaje: Cálculo, Lenguaje y Pensamiento Matemático (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE522" data-prereq="BPM">Evaluación e Intervención en Dificultades del Aprendizaje: Funciones Ejecutivas, Atención y Memoria (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="MED3" data-prereq="MED2">Mediación en Educación Especial 3: Dificultades del Aprendizaje (abre Mediación 4: Socioeducativa)</div>
+      <div class="ramo bloqueado" data-code="LCL465" data-prereq="">Estrategias Discursivas para Comunicar y Enseñar el Conocimiento Disciplinar (abre trabajo de titulación)</div>
+    </section>
+
+    <!-- Semestre 7 -->
+    <section class="semestre" id="semestre-7">
+      <h2>Semestre 7</h2>
+      <div class="ramo bloqueado" data-code="EDE518" data-prereq="BPM">Desarrollo de Habilidades Académicas en Jóvenes y Adultos con Necesidades de Apoyo (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="PDI2" data-prereq="PDI">Práctica Docente Intermedia (abre Identidad Profesional Docente, Investigación Educativa y Pedagógica y Práctica Docente Final)</div>
+      <div class="ramo bloqueado" data-code="EDE349" data-prereq="">Familia, Escuela y Comunidad en Educación Especial (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EPE1302" data-prereq="">Evaluación del y para el Aprendizaje (abre trabajo de titulación, Práctica Docente Final)</div>
+      <div class="ramo bloqueado" data-code="PSI404" data-prereq="">Psicología del Adulto (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="ING4" data-prereq="ING3">Inglés 4 (abre trabajo de titulación)</div>
+    </section>
+
+    <!-- Semestre 8 -->
+    <section class="semestre" id="semestre-8">
+      <h2>Semestre 8</h2>
+      <div class="ramo bloqueado" data-code="EDE344" data-prereq="EDE169">Desarrollo Profesional en Educación Especial 2 (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="MED4" data-prereq="MED3">Mediación en Educación Especial 4: Socioeducativa (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EPE1400" data-prereq="">Políticas Públicas, Educativas y Gestión Escolar (abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EPE1130" data-prereq="">Identidad Profesional Docente (abre Investigación Educativa y Pedagógica, abre trabajo de titulación)</div>
+      <div class="ramo bloqueado" data-code="EDE529" data-prereq="">Perfiles Excepcionales (abre trabajo de titulación)</div>
+      <div class="ramo" data-code="FF2" data-prereq="">Formación Fundamental 2</div>
+      <div class="ramo" data-code="OPT1" data-prereq="">Optativo 1</div>
+    </section>
+
+    <!-- Semestre 9 -->
+    <section class="semestre" id="semestre-9">
+      <h2>Semestre 9</h2>
+      <div class="ramo bloqueado" data-code="EPEINV" data-prereq="">Investigación Educativa y Pedagógica (abre Práctica Docente Final)</div>
+      <div class="ramo bloqueado" data-code="EDE3443" data-prereq="">Desarrollo Profesional en Educación Especial 3 (abre Práctica Docente Final)</div>
+      <div class="ramo bloqueado" data-code="EDEES" data-prereq="">Educación Especial en la Sociedad (abre Práctica Docente Final)</div>
+      <div class="ramo" data-code="FF3" data-prereq="">Formación Fundamental 3</div>
+      <div class="ramo" data-code="ETC" data-prereq="">Ética Cristiana</div>
+      <div class="ramo" data-code="OPT2" data-prereq="">Optativo 2</div>
+      <div class="ramo bloqueado" data-code="TT" data-prereq="">Trabajo de Titulación (abre Práctica Docente Final)</div>
+    </section>
+
+    <!-- Semestre 10 -->
+    <section class="semestre" id="semestre-10">
+      <h2>Semestre 10</h2>
+      <div class="ramo bloqueado" data-code="PDF" data-prereq="">Práctica Docente Final</div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
